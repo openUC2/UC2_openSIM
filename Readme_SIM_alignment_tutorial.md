@@ -1,12 +1,28 @@
 # SIM alignment tutorial
 
-This tutorial is aming to align the openSIM module of the UC2 modular 3D printed microscope. The fundamental is a set of full prepared components in hand, which listed in the ```readme.md``` for openSIM. The parts used for aligning the system are:
+This tutorial is aming to align the openSIM module of the UC2 modular 3D printed microscope. The fundamental is a set of full prepared components in hand, which listed in the [here](README.md) for openSIM. The parts used for aligning the system are:
 
   - openSIM module
   - optical components
   - UC2 cubes and inserts
   - target sample
   - magical hands
+## openSIM module
+The illumination part for openSIM is a separate assembled module in a 3D printed cage with dimension of 2x4 UC2 cubes. In order to compatible with other UC2 cubes, the cage need to have M5 set screws at connection position. The DMD chip should be disassembled and mount onto the [DMD holder](.\CAD\30_CUBE_DMD_Holder.stl). The holder is connect to the base part with m3 screw and in between have springs. The configuration allows us to slightly adjust the direction of DMD. The whole part looks like that:
+
+<p align="center">
+<img src="./IMAGES/MountingDMD.jpg" width="500">
+</p>
+
+***Fig. 1*** *An example image of the mounted DMD chip into the openSIM module.*
+
+All the optical components should insert into Thorlabs cage system and fix with the rods like here:
+
+<p align="center">
+<img src="./IMAGES/OpticalPath.jpg" width="500">
+</p>
+
+***Fig. 2*** *Optical path installation in the openSIM module*
 
 ## Align the camera
 In the openSIM setup, the camera module is arranged on the bottom layer, therefore, it needs to focus to infinity first. Try to find a far away object (e.g a building or mountain) and image it with the camera clearly by adjusting the distance between the camera and the tube lens. Following image shows an example image took by an infinity-focused camera.
@@ -15,7 +31,7 @@ In the openSIM setup, the camera module is arranged on the bottom layer, therefo
 <img src="./IMAGES/CameraToInfinity.jpg" width="500">
 </p>
 
-***Fig. 1*** *An example image of an infinity-corrected camera. The mountain on the picture is far away from our office.*
+***Fig. 3*** *An example image of an infinity-corrected camera. The mountain on the picture is far away from our office.*
 
 When the camera is infinity-focused, the bottom layer of the system can be placed as shown here:
 
@@ -23,7 +39,7 @@ When the camera is infinity-focused, the bottom layer of the system can be place
 <img src="./IMAGES/BottomLayer.png" width="500">
 </p>
 
-***Fig. 2*** *A top view of the system's bottom layer which contains camera module. This layer consists of camera and some empty cubes as support.*
+***Fig. 4*** *A top view of the system's bottom layer which contains camera module. This layer consists of camera and some empty cubes as support.*
 	
 In this layer, it has some empty cubes spread around in order to support the upper layers.
 
@@ -34,7 +50,7 @@ The laser we used is a 638 nm diode laser. In order to get a bigger spot size to
 <img src="./IMAGES/CollimatedLaserSource.jpg" width="500">
 </p>
 
-***Fig. 3*** *The laser beam is collimated by the 20 mm lens and the beam size doesn't change with the propagation distance.*
+***Fig. 5*** *The laser beam is collimated by the 20 mm lens and the beam size doesn't change with the propagation distance.*
 
 ## Prepare Fourier mask 
 
@@ -44,7 +60,7 @@ The telescope consists of two 50mm achromatic lenses and a fourier mask, which b
 <img src="./IMAGES/FirstLayer.png" width="500">
 </p>
 
-***Fig. 4*** *Illumination part of the openSIM setup. The laser beam is expanded and illuminates on the DMD mirror area. The zero-order of the beam is blocked in the first telescope, the two first-order beam will focus and interference at the sample plane with the tube lens and objective.*
+***Fig. 6*** *Illumination part of the openSIM setup. The laser beam is expanded and illuminates on the DMD mirror area. The zero-order of the beam is blocked in the first telescope, the two first-order beam will focus and interference at the sample plane with the tube lens and objective.*
 
 A 3D printed Fourier mask is applied in the telescope, the 3D model of the mask case can be found in the ``STL`` repository. One thin copper wire is splitted from electric cable, first make a small knot on the wire which is roughly the size of the desired tin drop. Then solder a small drop of soldering tin onto the knot.
 
@@ -52,7 +68,7 @@ A 3D printed Fourier mask is applied in the telescope, the 3D model of the mask 
 <img src="./IMAGES/KnotOnWire.png" width="800">
 </p>
 
-***Fig. 5*** *A single copper wire is taken from an electrical cable (left), a knot is crossed on the wire and can easliy add correct size of soldering tin on it.*
+***Fig. 7*** *A single copper wire is taken from an electrical cable (left), a knot is crossed on the wire and can easliy add correct size of soldering tin on it.*
 
 Mount the wire on the 3D printed part with the help of glue or fix gum, such as [UHU Patafix](https://www.uhu.de/de/produkt.3311). In order to aviod unexpected reflextion of the soldering tin, we can use black color marker pen and paint on the tin drop. At the end, the tin drop should be positioned at the middle of the mask. 
  
@@ -60,7 +76,7 @@ Mount the wire on the 3D printed part with the help of glue or fix gum, such as 
 <img src="./IMAGES/FourierMaskInBlack.png" width="400">
 </p>
 
-***Fig. 6*** *A prepared Fourier mask which has a soldering tin painted with black on it. The copper wire is fixed with fix gum.*
+***Fig. 8*** *A prepared Fourier mask which has a soldering tin painted with black on it. The copper wire is fixed with fix gum.*
 
 ## Alignement of the first Achromat
 
@@ -104,7 +120,7 @@ For proper alignment make sure the following steps are met:
 <img src="./IMAGES/ThreeBeamOnBFP.jpg" width="500">
 </p>
 
-***Fig. 7*** *Three beam pattern should locate at the center of the back focal plane of the objective.*
+***Fig. 9*** *Three beam pattern should locate at the center of the back focal plane of the objective.*
 
 ### Fine adjustment of the mirrors
 
@@ -114,7 +130,7 @@ Insert the [objective cube and linear z-stage](../CAD/ASSEMBLY_CUBE_Z-STAGE_v3) 
 <img src="./IMAGES/ThreeBeamInterferenceCamera.png" width="500">
 </p>
 
-***Fig. 8*** *Three beam interference at the sample plane. Left above is a structure from the USAF target, right grating is the illumination pattern from the DMD.*
+***Fig. 10*** *Three beam interference at the sample plane. Left above is a structure from the USAF target, right grating is the illumination pattern from the DMD.*
 
 ***Troubleshooting***: 
 
@@ -129,7 +145,7 @@ Then remove the objective from the system and place a piece paper in the positio
 <img src="./IMAGES/IlluWithoutZeroOrder.jpg" width="500" rotate="90">
 </p>
 
-***Fig. 9*** *Using the Fourier mask to block the zero-order illumination. You can easily check the block efficiency with a paper by removing the objective from the system.*
+***Fig. 11*** *Using the Fourier mask to block the zero-order illumination. You can easily check the block efficiency with a paper by removing the objective from the system.*
 
 Place the objective back, put again a paper slightly above the sample plane, you should observe two same-shaped beam spot. 
 
@@ -137,7 +153,7 @@ Place the objective back, put again a paper slightly above the sample plane, you
 <img src="./IMAGES/TwoBeamOnTheObjective.jpg" width="500">
 </p>
 
-***Fig. 10*** *The two beam is interferencing at the sample plane and divergent above the sample plane.*
+***Fig. 12*** *The two beam is interferencing at the sample plane and divergent above the sample plane.*
 
 Refocus onto the target sample, the two beam interference pattern should be shown on the camera. If not, try to slightly tilt the mirror to refocus the both patterns on the sample plane. A example image is shown as below:
 
@@ -145,7 +161,7 @@ Refocus onto the target sample, the two beam interference pattern should be show
 <img src="./IMAGES/TwoBeamInterferenceCamera.png" width="500">
 </p>
 
-***Fig. 11*** *The expected two beam interference pattern on the camera. Right side is the detail of the interference pattern.*
+***Fig. 13*** *The expected two beam interference pattern on the camera. Right side is the detail of the interference pattern.*
 
 
 ## Ready for play
@@ -156,6 +172,6 @@ Now the openSIM setup is ready to play. Enjoy the new toy!
 <img src="./IMAGES/FullSetup.png" width='650'>
 </p>
 
-***Fig. 12*** *Overview of the SIM/ISM setup.*
+***Fig. 14*** *Overview of the SIM/ISM setup.*
 
 

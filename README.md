@@ -71,7 +71,7 @@ A dedicated Tutorial how to setup the software can be found in the [Readme_Softw
 
 # Hardware
 
-Below we describe how the device can be build and assembled in order to replicate the whole system as shown in the rendering above. One needs additional parts that can be found in the core [openUC2 repository](https://github.com/bionanoimaging/UC2-GIT).
+Below we describe how the device can be build and assembled in order to replicate the whole system as shown in the rendering above [Align Tutorial](Readme_SIM_alignment_tutorial.md). One needs additional parts that can be found in the core [openUC2 repository](https://github.com/bionanoimaging/UC2-GIT).
 
 
 ## Bill of material
@@ -85,10 +85,13 @@ All these files need to be printed. We used a Prusa i3 MK3 using PLA Prusament (
 
 Parts to print:
 
-* 1x [SIM-Module 2×4](./STL/Assembly_openSIM_module_v2_30_CUBE_openSIM_base_v2_1.stl)
-* 1x [Telescope for Beam Expansion](./STL/Assembly_openSIM_module_v2_30_CUBE_OpenSIM_Beamexpander_v2_9.stl)
-* 1x [DMD Adapter](./STL/Assembly_openSIM_module_v2_30_CUBE_openSIM_DLP2000_Holder_mirrored_3.stl)
+* 1x [SIM-Module 2×4_Base](./CAD/30_CUBE_openSIM_base_v4.stl); [SIM-Module Lid](./CAD/30_CUBE_openSIM_Cagelid.stl)
+* 1x [DMD holder](./CAD/30_CUBE_DMD_Holder.stl); [DMD Mount](./CAD/30_CUBE_DMD_Fixation_base.stl)
+* 1x [Fourier Mask](./CAD/30_CUBE_Fouriermask.stl)
+* 1x [Telescope for Beam Expansion](./CAD/30_CUBE_OpenSIM_Laser_Telescope_Mount.stl)
+* 1x [Rod holder](./CAD/30_CUBE_openSIM_Rodholder.stl)
 * 1x [Z-stage](https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/ASSEMBLY_CUBE_Z-STAGE_sample/STL/20_Cube_Insert_Z-Focus_single_v3.stl)
+
 
 
 ### Additional parts
@@ -102,10 +105,10 @@ This is used in the current version of the setup
 | Tube-lens | Lens, f=180mm |  10 € | [PGI-Versand](https://www.pgi-versand.de/?id=47&mode=artdet&artnr=564.OA.64)  |
 | Telescope-lens | 2x Achromatic 1inch Lens, f=50mmmm |  82 € | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-050-A)  |
 | Dichroics  |  Various |  200 € | [Thorlabs]()  |
-| Mirror | 1inch Silver Mirror, Protected |  50 € | [Thorlabs]()  |
+| Mirror | 1 inch Silver Mirror, Protected |  50 € | [Thorlabs](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=903)  |
 | iPhone Lens | iPhone 5 lens for the telescope  (optional) |  5 € | [Amazon]()  |
 | Lens | 25mm lens for the telescope (optional) |  5 € | [Amazon]()  |
-| Dichroics  |  Various |  200 € | [Thorlabs]()  |
+| Cage rods  | 8 inch cage rod for 30mm cage system |  33 € | [Thorlabs](https://www.thorlabs.de/thorproduct.cfm?partnumber=ER8)  |
 | PCB for Raspi-DMD connection  |  Various |  8 € | [See below]()  |
 | Micrometre for z-stage  | Range 0 mm →25 mm |  30 € | [RS PRO](https://uk.rs-online.com/web/p/micrometers/7857878/)  |
 

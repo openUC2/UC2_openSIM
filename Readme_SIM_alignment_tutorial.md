@@ -8,7 +8,7 @@ This tutorial is aming to align the openSIM module of the UC2 modular 3D printed
   - target sample
   - magical hands
 ## openSIM module
-The illumination part for openSIM is a separate assembled module in a 3D printed cage with dimension of 2x4 UC2 cubes. In order to compatible with other UC2 cubes, the cage need to have M5 set screws at connection position. The DMD chip should be disassembled and mount onto the [DMD holder](.\CAD\30_CUBE_DMD_Holder.stl). The holder is connect to the base part with m3 screw and in between have springs. The configuration allows us to slightly adjust the direction of DMD. The whole part looks like that:
+The illumination part for openSIM is a separate assembled module in a 3D printed cage with dimension of 2x4 UC2 cubes. In order to compatible with other UC2 cubes, the cage need to have M5 set screws at connection position. The DMD chip should be disassembled and mount onto the [DMD holder](./CAD/30_CUBE_openSIM_DMD_Holder.stl) with its own screws. The holder is connect to the base part with m3 screw and in between have springs. The configuration allows us to slightly adjust the direction of DMD. The whole part looks like that:
 
 <p align="center">
 <img src="./IMAGES/MountingDMD.jpg" width="500">

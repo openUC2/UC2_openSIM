@@ -85,7 +85,7 @@ It is of great help to start with a collimated light source such as a Laser diod
 
 ## Alignment of the telescope
 
-The goal is to have a plane wave in- and outcoming of the telescope consisting of the two 50mm achromates. Now, we have to insert the second achromatic lens. We use the collimated light source to  and heading to the DMD mirror, if the telescope is good calibrated, the laser beam should illuminate onto the DMD chip with its original spot size.
+The goal is to have a plane wave in- and outcoming of the telescope consisting of the two 50mm achromates. Now, we have to insert the second achromatic lens. We use the collimated light source to  and heading to the DMD mirror, if the telescope is good calibrated, the laser beam should illuminate onto the DMD chip with its original spot size. After all alignment the lid of the openSIM moudle should be mount with M4 screws.
 
 ## Bring the system to the table
 

@@ -99,12 +99,12 @@ This is used in the current version of the setup
 
 |  Type | Details  |  Price | Link  |
 |---|---|---|---|
-| Laser |  12V 532nm 200mw Green Laser Dot Module Fan Cooling TTL 0-30KHZ-Long time working |  90 € | [Laserland](https://www.laserlands.net/diode-laser-module/600nm-640nm-orange-red-laser-module/3258-638d.html)  |
+| Laser |  12V 638nm 300mw Fat Beam Laser Module |  40 € | [Laserland](https://www.laserlands.net/diode-laser-module/600nm-640nm-orange-red-laser-module/3258-638d.html)  |
 | DMD |  Evaluierungsmodul (EVM) DLP® LightCrafter™ Display 2000 |  90 € | [Digikey](https://www.digikey.de/product-detail/de/texas-instruments/DLPDLCR2000EVM/296-47119-ND/7598640)  |
 | Raspberry Pi | Raspi+SD-Card+Case+Powersupply(for DMD+Raspi, 5V, >=3A!) |  70 € | [Reichelt](https://www.reichelt.de/raspberry-pi-4-b-4x-1-5-ghz-1-gb-ram-wlan-bt-rasp-pi-4-b-1gb-p259874.html?PROVID=2788&gclid=Cj0KCQiAz53vBRCpARIsAPPsz8X9hCOt9yVVB_WqLCmKSs2e-KuThVnrMEtl2TRbAUTqtVoNZU3zM3YaAg2ZEALw_wcB&&r=1)  |
 | Tube-lens | Lens, f=180mm |  10 € | [PGI-Versand](https://www.pgi-versand.de/?id=47&mode=artdet&artnr=564.OA.64)  |
 | Telescope-lens | 2x Achromatic 1inch Lens, f=50mmmm |  82 € | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-050-A)  |
-| Dichroics  |  Various |  200 € | [Thorlabs]()  |
+| Dichroics  |  740IY 125 40x25mm|  35 € | [ComarOptics](https://www.comaroptics.com/components/filters/dichroic-filters/long-pass-dichroic-filters)  |
 | Mirror | 1 inch Silver Mirror, Protected |  50 € | [Thorlabs](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=903)  |
 | iPhone Lens | iPhone 5 lens for the telescope  (optional) |  5 € | [Amazon]()  |
 | Lens | 25mm lens for the telescope (optional) |  5 € | [Amazon]()  |
